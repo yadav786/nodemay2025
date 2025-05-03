@@ -1,6 +1,4 @@
 // index.js
-import * as dotenv from 'dotenv';
-dotenv.config();
 import express from 'express';
 import run from './utils/sendEmail.js';
 const app = express();
